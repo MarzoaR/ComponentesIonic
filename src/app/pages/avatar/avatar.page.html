@@ -1,0 +1,51 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <ion-back-button
+        defaultHref="/"
+        text="Atrás"
+        color="primary">
+      </ion-back-button>
+    </ion-buttons>
+
+    <ion-title>Avatar</ion-title>
+
+    <ion-avatar slot="end">
+      <img src="/assets/stan-lee.jpg">
+    </ion-avatar>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <!-- i avatar -->
+  <ion-avatar>
+    <img src="/assets/stan-lee.jpg">
+  </ion-avatar>
+  <!-- i chip avatar -->
+  <ion-chip color="primary" outline="true">
+    <ion-label>Default</ion-label>
+    <ion-avatar>
+      <img src="/assets/stan-lee.jpg" />
+    </ion-avatar>
+  </ion-chip>
+  <!-- i list item -->
+  <ion-list>
+    <ion-item>
+      <ion-avatar slot="start">
+        <img src="/assets/stan-lee.jpg" />
+      </ion-avatar>
+      <ion-label>Stan Lee</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Stan Lee</ion-label>
+      <ion-avatar slot="end">
+        <img src="/assets/stan-lee.jpg" />
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
+</ion-content>
